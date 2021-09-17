@@ -12,6 +12,7 @@ vi:
   contact: "Liên hệ"
   log_in: "Đăng nhập"
   sign_up_now: "Đăng ký ngay!"
+  sign_up: "Đăng ký"
   static_pages:
     home:
       title: "Trang chủ"
@@ -27,3 +28,10 @@ vi:
       heading: "Giới thiệu!"
       descripiton: "Đây là trang chủ của %{link} cho sample application."
       descripiton2: "Phần %{link} sẽ hướng dẫn tìm hiểu đầy đủ, là %{link2}. Đây là ứng dụng mẫu cho hướng dẫn."
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Họ tên"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      create_account: "Tạo tài khoản"
