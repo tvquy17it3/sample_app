@@ -26,6 +26,7 @@ vi:
   profile: "Trang cá nhân"
   setting: "Thiết lập"
   log_out: "Đăng xuất"
+  remember_me: "Ghi nhớ tài khoản"
   static_pages:
     home:
       title: "Trang chủ"
