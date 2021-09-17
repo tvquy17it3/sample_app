@@ -20,6 +20,12 @@ en:
   created_at: "Created at"
   updated_at: "Updated at"
   user_not_found: "User not found"
+  invalid_email_password: "Invalid email password combination"
+  new_user: "New user"
+  account: "Account"
+  profile: "Profile"
+  setting: "Setting"
+  log_out: "Log out"
   static_pages:
     home:
       title: "Home"
@@ -43,6 +49,11 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       create_account: "Create my account"
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
   time:
     formats:
       own: "%H:%M:%S, %d %B"

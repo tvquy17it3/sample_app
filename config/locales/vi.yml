@@ -20,6 +20,12 @@ vi:
   created_at: "Ngày tạo"
   updated_at: "Cập nhật"
   user_not_found: "Không tìm thấy!"
+  invalid_email_password: "Email hoặc mật khẩu không hợp lệ!"
+  new_user: "Người dùng mới?"
+  account: "Tài khoản"
+  profile: "Trang cá nhân"
+  setting: "Thiết lập"
+  log_out: "Đăng xuất"
   static_pages:
     home:
       title: "Trang chủ"
@@ -43,6 +49,11 @@ vi:
       password: "Mật khẩu"
       confirmation: "Nhập lại mật khẩu"
       create_account: "Tạo tài khoản"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
   time:
     formats:
       own: "%H:%M:%S, %d %B"
