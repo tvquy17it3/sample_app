@@ -26,7 +26,19 @@ vi:
   profile: "Trang cá nhân"
   setting: "Thiết lập"
   log_out: "Đăng xuất"
-  remember_me: "Ghi nhớ tài khoản"
+  create_account: "Tạo tài khoản"
+  edit_user: "Chỉnh sửa thông tin"
+  update_profile: "Cập nhật thông tin cá nhân"
+  save_changes: "Lưu thay đổi"
+  change: "Thay đổi"
+  profile_updated: "Đã cập nhật thông tin!"
+  update_fail: "Update failed"
+  please_login: "Vui lòng đăng nhập"
+  users: "Người dùng"
+  all_users: "Tất cả người dùng"
+  you_sure: "Bạn có chắc chắn?"
+  user_deleted: "Đã xóa người dùng!"
+  delete_fail: "Thất bại"
   static_pages:
     home:
       title: "Trang chủ"
@@ -42,22 +54,22 @@ vi:
       heading: "Giới thiệu!"
       descripiton: "Đây là trang chủ của %{link} cho sample application."
       descripiton2: "Phần %{link} sẽ hướng dẫn tìm hiểu đầy đủ, là %{link2}. Đây là ứng dụng mẫu cho hướng dẫn."
-  users:
-    new:
-      title: "Đăng ký"
-      name: "Họ tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirmation: "Nhập lại mật khẩu"
-      create_account: "Tạo tài khoản"
-  sessions:
-    new:
-      title: "Đăng nhập"
-      email: "Email"
-      password: "Mật khẩu"
   time:
     formats:
       own: "%H:%M:%S, %d %B"
       default: "%d-%m-%Y"
       long: "%d %B, %Y"
       short: "%d %b"
+  page_login:
+    email: "Email"
+    password: "Mật khẩu"
+    remember_me: "Ghi nhớ tài khoản"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
