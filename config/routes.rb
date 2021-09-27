@@ -6,9 +6,11 @@ Rails.application.routes.draw do
     get "/about", to: "static_pages#about"
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
-    resources :users, only: %i(new create show)
+    resources :users
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
+    resources :account_activations, only: :edit
+    default_url_options host: "localhost:3000"
   end
 end
