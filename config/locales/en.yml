@@ -4,7 +4,7 @@ en:
   help_rails: "Rails Tutorial help page"
   sample_app: "Sample app"
   english: "English"
-  vietnamese: "vietnamese"
+  vietnamese: "Vietnamese"
   home: "Home"
   book: "Book"
   help: "Help"
@@ -13,6 +13,13 @@ en:
   log_in: "Log in"
   sign_up_now: "Sign up now!"
   sign_up: "Sign up"
+  form_errors:
+    one: "The form contain %{count} error"
+    other: "The form contains %{count} errors"
+  welcome_to_app: "Welcome to app!"
+  created_at: "Created at"
+  updated_at: "Updated at"
+  user_not_found: "User not found"
   static_pages:
     home:
       title: "Home"
@@ -32,6 +39,13 @@ en:
     new:
       title: "Sign up"
       name: "Name"
+      email: "Email"
       password: "Password"
       confirmation: "Confirmation"
       create_account: "Create my account"
+  time:
+    formats:
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"

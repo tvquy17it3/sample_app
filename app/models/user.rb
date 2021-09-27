@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  validates :name, :email, :password, :password_confirmation, presence: true
+  validates :name, :email, :password, presence: true
   validates :name, length:
     {
       minimum: Settings.length.min_3,

@@ -13,6 +13,13 @@ vi:
   log_in: "Đăng nhập"
   sign_up_now: "Đăng ký ngay!"
   sign_up: "Đăng ký"
+  form_errors:
+    one: "Biểu mẫu có %{count} lỗi"
+    other: "Biểu mẫu bao gồm %{count} lỗi"
+  welcome_to_app: "Welcome to app!"
+  created_at: "Ngày tạo"
+  updated_at: "Cập nhật"
+  user_not_found: "Không tìm thấy!"
   static_pages:
     home:
       title: "Trang chủ"
@@ -32,6 +39,13 @@ vi:
     new:
       title: "Đăng ký"
       name: "Họ tên"
+      email: "Email"
       password: "Mật khẩu"
       confirmation: "Nhập lại mật khẩu"
       create_account: "Tạo tài khoản"
+  time:
+    formats:
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"
