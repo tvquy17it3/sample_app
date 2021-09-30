@@ -39,6 +39,13 @@ vi:
   you_sure: "Bạn có chắc chắn?"
   user_deleted: "Đã xóa người dùng!"
   delete_fail: "Thất bại"
+  forgot_password: "Quên mật khẩu"
+  submit: "Xác nhận"
+  reset_password: "Reset mật khẩu"
+  update_password: "Cập nhật mật khẩu"
+  password_empty: "Mật khẩu không được trống"
+  has_expired": "Hết hạn lấy lại mật khẩu"
+  reset_password_success: "Đã tạo lại mật khẩu thành công"
   static_pages:
     home:
       title: "Trang chủ"
@@ -64,6 +71,7 @@ vi:
     email: "Email"
     password: "Mật khẩu"
     remember_me: "Ghi nhớ tài khoản"
+    forgot_password: "(quên mật khẩu)"
   activerecord:
     models:
       user: "User"
@@ -81,3 +89,10 @@ vi:
     contents_mail_html: "<p>Xin chào %{name},</p><p>Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:</p>"
     check_email: "Vui lòng kiểm tra emai để kích hoạt tài khoản của bạn"
     account_not_activated: "Tài khoản chưa được kích hoạt!. Vui lòng kiểm tra email để kích hoạt tài khoản của bạn!"
+    password_reset: "Lấy lại mật khẩu"
+    reset_below: "To reset your password click the link below:"
+    this_expire: "This link will expire in 1 giờ."
+    ignore_email: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    link_reset: "Reset mật khẩu"
+    email_sent_instructions: "Email gửi with password reset instructions!"
+    email_not_found: "Không tìm thấy địa chie email!"
