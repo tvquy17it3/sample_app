@@ -26,6 +26,7 @@ en:
   profile: "Profile"
   setting: "Setting"
   log_out: "Log out"
+  remember_me: "Remember me"
   static_pages:
     home:
       title: "Home"
