@@ -47,6 +47,7 @@ en:
   has_expired": "Password reset has expired."
   reset_password_success: "Reset password success"
   view_my_profile: "View my profile"
+  delete_user: "Delete"
   static_pages:
     home:
       title: "Home"
@@ -116,3 +117,8 @@ en:
     post: "Post"
     microposts: "Microposts"
     max_file_5mb: "Maximum file size is 5MB. Please choose a smaller file."
+  follow:
+    followers: "Followers"
+    following: "Following"
+    follow: "Follow"
+    unfollow: "Unfollow"
