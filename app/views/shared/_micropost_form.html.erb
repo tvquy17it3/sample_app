@@ -1,0 +1,12 @@
+<%= form_for @micropost do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t("posts.compose_micropost") %>
+  </div>
+  <%= f.submit t("posts.post"), class: "btn btn-primary" %>
+  <span class="image">
+    <%= f.file_field :image, accept: "image/jpeg,image/gif,image/png" %>
+  </span>
+<% end %>
+
+<%= javascript_pack_tag "post_custome" %>

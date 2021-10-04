@@ -46,11 +46,13 @@ en:
   password_empty: "Password empty"
   has_expired": "Password reset has expired."
   reset_password_success: "Reset password success"
+  view_my_profile: "View my profile"
   static_pages:
     home:
       title: "Home"
       heading: "Welcome to the Sample App"
       descripiton: "This is the home page for the %{link} sample application."
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       heading: "Help!"
@@ -80,6 +82,13 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirmation"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              valid_image_format: "Must be a valid image format"
+              less_than_5mb: "Should be less than 5MB"
   user_mailer:
     account_activation: "Account activation"
     account_activated: "Account activated!"
@@ -95,4 +104,15 @@ en:
     link_reset: "Reset password"
     email_sent_instructions: "Email sent with password reset instructions"
     email_not_found: "Email address not found"
-
+  posts:
+    post_created: "Micropost created!"
+    post_deleted: "Micropost deleted"
+    deleted_fail: "Deleted fail"
+    post_invalid: "Micropost invalid"
+    delete: "Delete"
+    you_sure: "You sure?"
+    time_post: "Posted %{time} ago"
+    compose_micropost: "Compose new micropost..."
+    post: "Post"
+    microposts: "Microposts"
+    max_file_5mb: "Maximum file size is 5MB. Please choose a smaller file."
