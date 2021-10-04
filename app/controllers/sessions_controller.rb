@@ -3,10 +3,15 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
-    if user.try(:authenticate, params[:session][:password])
-      log_in user
-      check_remember user
-      redirect_back_or user
+    if check_attemp(user)
+      if user.activated
+        log_in user
+        check_remember user
+        redirect_back_or user
+      else
+        flash[:warning] = t "user_mailer.account_not_activated"
+        redirect_to root_url
+      end
     else
       flash.now[:danger] = t "invalid_email_password"
       render :new
@@ -16,5 +21,9 @@ class SessionsController < ApplicationController
   def destroy
     log_out if logged_in?
     redirect_to root_url
+  end
+
+  def check_attemp user
+    user.try(:authenticate, params[:session][:password])
   end
 end

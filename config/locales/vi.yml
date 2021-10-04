@@ -73,3 +73,12 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+  user_mailer:
+    account_activation: "Kích hoạt tài khoản"
+    account_activated: "Đã kích hoạt tài khoản"
+    invalid_activation_link: "Link kích hoạt tài khoản không đúng!"
+    contents_mail_text: "Xin chào %{name}, Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:"
+    contents_mail_html: "<p>Xin chào %{name},</p><p>Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:</p>"
+    check_email: "Vui lòng kiểm tra emai để kích hoạt tài khoản của bạn"
+    account_not_activated: "Tài khoản chưa được kích hoạt!. Vui lòng kiểm tra email để kích hoạt tài khoản của bạn!"
+
