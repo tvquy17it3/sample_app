@@ -73,4 +73,12 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirmation"
+  user_mailer:
+    account_activation: "Account activation"
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    contents_mail_text: "Hi %{name}, Welcome to the Sample App! Click on the link below to activate your account:"
+    contents_mail_html: "<p>Hi %{name},</p><p>Welcome to the Sample App! Click on the link below to activate your account:</p>"
+    check_email: "Please check your email to activate your account."
+    account_not_activated: "Account not activated. Check your email for the activation link."
 
