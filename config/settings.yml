@@ -8,3 +8,8 @@ length:
 checked_1: "1"
 show_10: 10
 size_80: 80
+less_than_5: 5
+format_img: ["image/png", "image/jpg", "image/jpeg"]
+img:
+  size_arr_500: [500, 500]
+  size_50: 50

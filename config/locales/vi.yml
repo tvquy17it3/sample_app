@@ -46,11 +46,13 @@ vi:
   password_empty: "Mật khẩu không được trống"
   has_expired": "Hết hạn lấy lại mật khẩu"
   reset_password_success: "Đã tạo lại mật khẩu thành công"
+  view_my_profile: "Xem trang cá nhân"
   static_pages:
     home:
       title: "Trang chủ"
       heading: "Chào mừng bạn đến với chúng tôi!"
       descripiton: "Đây là trang chủ của %{link} cho sample application."
+      micropost_feed: "Micropost Feed"
     help:
       title: "Hỗ Trợ"
       heading: "Hỗ Trợ!"
@@ -80,6 +82,13 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              valid_image_format: "Must be a valid image format"
+              less_than_5mb: "Should be less than 5MB"
   user_mailer:
     account_activation: "Kích hoạt tài khoản"
     account_activated: "Đã kích hoạt tài khoản"
@@ -88,7 +97,6 @@ vi:
     contents_mail_html: "<p>Xin chào %{name},</p><p>Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:</p>"
     check_email: "Vui lòng kiểm tra emai để kích hoạt tài khoản của bạn"
     account_not_activated: "Tài khoản chưa được kích hoạt!. Vui lòng kiểm tra email để kích hoạt tài khoản của bạn!"
-    account_not_activated: "Tài khoản chưa được kích hoạt!. Vui lòng kiểm tra email để kích hoạt tài khoản của bạn!"
     password_reset: "Lấy lại mật khẩu"
     reset_below: "To reset your password click the link below:"
     this_expire: "This link will expire in 1 giờ."
@@ -96,3 +104,15 @@ vi:
     link_reset: "Reset mật khẩu"
     email_sent_instructions: "Email gửi with password reset instructions!"
     email_not_found: "Không tìm thấy địa chỉ email!"
+  posts:
+    post_created: "Đã tạo bài viết!"
+    post_deleted: "Đã xóa bài viết"
+    deleted_fail: "Xóa thất bại!"
+    post_invalid: "Micropost không đúng"
+    delete: "Xóa"
+    you_sure: "Bạn có chắc?"
+    time_post: "Bài viết %{time} trước"
+    compose_micropost: "Nội dung..."
+    post: "Đăng"
+    microposts: "Microposts"
+    max_file_5mb: "File tối đa 5MB"
