@@ -21,6 +21,23 @@ class UsersController < ApplicationController
 
   def edit; end
 
+  def following
+    @title = t "follow.following"
+    @users = @user.following.paginate(
+      page: params[:page], per_page: Settings.show_10
+    )
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "follow.followers"
+    @user = User.find_by(id: params[:id])
+    @users = @user.followers.paginate(
+      page: params[:page], per_page: Settings.show_10
+    )
+    render "show_follow"
+  end
+
   def create
     @user = User.new user_params
     if @user.save

@@ -47,6 +47,7 @@ vi:
   has_expired": "Hết hạn lấy lại mật khẩu"
   reset_password_success: "Đã tạo lại mật khẩu thành công"
   view_my_profile: "Xem trang cá nhân"
+  delete_user: "Xóa"
   static_pages:
     home:
       title: "Trang chủ"
@@ -114,5 +115,10 @@ vi:
     time_post: "Bài viết %{time} trước"
     compose_micropost: "Nội dung..."
     post: "Đăng"
-    microposts: "Microposts"
+    microposts: "Bài viết"
     max_file_5mb: "File tối đa 5MB"
+  follow:
+    followers: "Người theo dõi"
+    following: "Đang theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
